@@ -1,0 +1,140 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1117;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+nav h1 {
+  font-size: 30px;
+  padding: 15px 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 0px auto 5px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  transition: 0.3s;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255);
+  color: #0d1117;
+}
+
+#products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1080px;
+  /* background-color: red; */
+  margin: auto;
+  padding: 10px;
+}
+
+.products {
+  width: 150px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.products img {
+  width: 100%;
+}
+
+.products a {
+  color: black;
+  text-align: center;
+  padding: 7px;
+  display: inline-block;
+  width: 90%;
+  margin: auto;
+  transform: 0.3ms;
+}
+
+.products a:hover {
+  text-decoration: underline;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid white;
+}
+
+#contact form .form-block {
+  margin: 0 auto 10px;
+}
+
+#contact form .form-block label {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+#contact form .form-block input {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 0px auto;
+  border-radius: 7px;
+  font-size: 16px;
+  max-width: 350px;
+}
+
+#contact form .form-block .btn {
+  display: block;
+  width: 100%;
+  padding: 5px 5px;
+  margin: 0px auto;
+  border-radius: 7px;
+  max-width: 350px;
+}
+
+#about-us-container {
+  text-align: justify;
+}
+
+#mission ul {
+  list-style-position: inside;
+}
+
+/* @media only screen and (max-width: 600px) {} */
